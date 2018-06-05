@@ -17,4 +17,4 @@ The codes are now avaiable in `event-embedding`.
 
 
 ## Contact
-Feel free to contact [Xudong Hong](https://github.com/tony-hong) if you have any question!
+Feel free to contact [Xudong Hong](mailto:xhong@coli.uni-saarland.de) if you have any question!
