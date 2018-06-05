@@ -1,6 +1,20 @@
-# event-embedding-multitask
+# Event Embeddings with a Multi-Task Approach
 
-This is the repository for the \*SEM 2018 papar "Learning Distributed Event Representations with a Multi-Task Approach" by Xudong Hong, Asad Sayeed and Vera Demberg. 
+This is the repository for the \*SEM 2018 papar ["Learning Distributed Event Representations with a Multi-Task Approach"](http://aclweb.org/anthology/S18-2002) by Xudong Hong, Asad Sayeed and Vera Demberg. 
+
+If you use our code in your work, please cite our paper:  
+  > @inproceedings{hong2018learning,  
+  > &nbsp; &nbsp; title={Learning distributed event representations with a multi-task approach},  
+  > &nbsp; &nbsp; author={Hong, Xudong and Sayeed, Asad and Demberg, Vera},  
+  > &nbsp; &nbsp; booktitle={Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics},  
+  > &nbsp; &nbsp; pages={11--21},  
+  > &nbsp; &nbsp; year={2018}  
+  > }  
+
 
 ## Updates
-The codes are on the way. Please stay tuned. 
+The codes are now avaiable in `event-embedding`. 
+
+
+## Contact
+Feel free to contact [Xudong Hong](https://github.com/tony-hong) if you have any question!
