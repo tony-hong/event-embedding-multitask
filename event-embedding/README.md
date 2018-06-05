@@ -1,4 +1,4 @@
-# Event Embedding #
+# Event Embedding Models #
 
 This is a Keras implementation of different event embedding models. 
 
