@@ -25,6 +25,8 @@ This is a Keras implementation of different event embedding models.
 * Tensorflow 0.10
 * Keras 2.0
 
+* [Docker hub repository](https://hub.docker.com/r/tonyhong/event-embedding/) for quick deployment. 
+
 ### How to run tests
 * Train Non-incremental Model using Tensorflow:
     * `$ python main.py NAME_OF_TEST USING_EXISTING_MODEL`
