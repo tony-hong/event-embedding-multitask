@@ -14,20 +14,22 @@ This is a Keras implementation of different event embedding models.
 
 
 ## How do I get set up? 
-### Configuration
+### Deployment
 * The root directory should be modified in `config.py`.
 * $PYTHONPATH of this repository is configured.
 
-
-### Dependencies
+#### Dependencies
 * Python 2.7
 * CUDA 7.5
 * Tensorflow 0.10
 * Keras 2.0
 
+#### Instructions
+* Using docker is a better way to deploy the models. 
 * [Docker hub repository](https://hub.docker.com/r/tonyhong/event-embedding/) for quick deployment. 
+* After running the docker image, please follow the instructions in [docker hub repository](https://hub.docker.com/r/tonyhong/event-embedding/) to install `h5py`, `nltk` and download `wordnet` for `nltk`. 
 
-### How to run tests
+### How to run tests?
 * Train Non-incremental Model using Tensorflow:
     * `$ python main.py NAME_OF_MODEL VERSION`
 * Train a model using Theano:
