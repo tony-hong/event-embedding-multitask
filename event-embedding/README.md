@@ -29,12 +29,12 @@ This is a Keras implementation of different event embedding models.
 
 ### How to run tests
 * Train Non-incremental Model using Tensorflow:
-    * `$ python main.py NAME_OF_TEST USING_EXISTING_MODEL`
-* Train Single Output Model using Tensorflow:
-    * `$ python som_trainer.py NAME_OF_TEST USING_EXISTING_MODEL`
+    * `$ python main.py NAME_OF_MODEL VERSION`
 * Train a model using Theano:
-    * `$ KERAS_BACKEND=theano python main.py NAME_OF_TEST USING_EXISTING_MODEL`
-
+    * `$ KERAS_BACKEND=theano python main.py NAME_OF_MODEL VERSION`
+* Eval a model:
+   * `$ python evaluation/EVAL_SCRIPT.py NAME_OF_MODEL VERSION`
+   * e.g. `$ python evaluation/eval_pado_mcrae.py NNRF oct_e75`
 
 ### Deployment instructions
 * All files should be organized in following structure:
@@ -65,9 +65,11 @@ This is a Keras implementation of different event embedding models.
     └── README.md
 ```
 
-* Pre-trained models are avaiable [here](https://drive.google.com/drive/folders/1B05aCqf96QvlophDpCCDvvNPw2MOgIGI?usp=sharing
-). These file should be placed in ```./model/``` .
+* Pre-trained models are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./model/``` .
 
+* Evaluation data files are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./eval_data/``` .
+
+* If you need the training data, please contact the maintainer directly. 
 
 ## Admin
 * [Tony Hong](https://github.com/tony-hong) Visiting Student
