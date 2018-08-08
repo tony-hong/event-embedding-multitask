@@ -66,7 +66,7 @@ This is a Keras implementation of different event embedding models.
 ```
 
 * Pre-trained models are avaiable [here](https://drive.google.com/drive/folders/1B05aCqf96QvlophDpCCDvvNPw2MOgIGI?usp=sharing
-). 
+). These file should be placed in ```./model/``` .
 
 
 ## Admin
