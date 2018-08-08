@@ -71,10 +71,10 @@ This is a Keras implementation of different event embedding models.
 
 * Evaluation data files are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./eval_data/``` .
 
-* If you need the training data, please contact the maintainer directly. 
+* If you need the training data, please contact the admin directly. 
 
 ## Admin
-* [Tony Hong](https://github.com/tony-hong) Visiting Student
+* [Tony Hong](https://github.com/tony-hong)
 
 
 ## Reference 
