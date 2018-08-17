@@ -29,16 +29,7 @@ This is a Keras implementation of different event embedding models.
 * [Docker hub repository](https://hub.docker.com/r/tonyhong/event-embedding/) for quick deployment. 
 * After running the docker image, please follow the instructions in [docker hub repository](https://hub.docker.com/r/tonyhong/event-embedding/) to install `h5py`, `nltk` and download `wordnet` for `nltk`. 
 
-### How to run tests?
-* Train Non-incremental Model using Tensorflow:
-    * `$ python main.py NAME_OF_MODEL VERSION`
-* Train a model using Theano:
-    * `$ KERAS_BACKEND=theano python main.py NAME_OF_MODEL VERSION`
-* Eval a model:
-   * `$ python evaluation/EVAL_SCRIPT.py NAME_OF_MODEL VERSION`
-   * e.g. `$ python evaluation/eval_pado_mcrae.py NNRF oct_e75`
-
-### Deployment instructions
+#### File arrangements
 * All files should be organized in following structure:
 ```
 .
@@ -71,7 +62,18 @@ This is a Keras implementation of different event embedding models.
 
 * Evaluation data files are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./eval_data/``` .
 
-* If you need the training data, please contact the admin directly. 
+* The training data should be placed in ```./data/```. If you need the training data, please contact the admin directly. 
+
+
+### How to run tests?
+* Train a model using Tensorflow:
+    * `$ python main.py NAME_OF_MODEL VERSION`
+* Train a model using Theano:
+    * `$ KERAS_BACKEND=theano python main.py NAME_OF_MODEL VERSION`
+* Eval a model:
+   * `$ python evaluation/EVAL_SCRIPT.py NAME_OF_MODEL VERSION`
+   * e.g. `$ python evaluation/eval_pado_mcrae.py NNRF oct_e75`
+
 
 ## Admin
 * [Tony Hong](https://github.com/tony-hong)
