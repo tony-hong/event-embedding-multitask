@@ -67,7 +67,7 @@ This is a Keras implementation of different event embedding models.
     └── README.md
 ```
 
-* Pre-trained models are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./model/``` .
+* Pre-trained models are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./model/test/``` .
 
 * Evaluation data files are avaiable [here](https://drive.google.com/open?id=1B05aCqf96QvlophDpCCDvvNPw2MOgIGI). These files should be placed in ```./eval_data/``` .
 
