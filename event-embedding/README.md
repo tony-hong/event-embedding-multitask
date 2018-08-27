@@ -36,7 +36,7 @@ Example steps to install docker and the images:
 1. Enter the docker image with:
    *  `$ docker run -ti tonyhong/event-embedding:paper`
    
-   you should now be at a root prompt inside a running docker container.
+   you should now be at a root prompt inside a running docker container. See the docker documentation for how to re-enter a running git container after you have exited.
 1. Install `h5py` and `nltk` with the following command:
    *  `$ pip install h5py nltk`
 1. Install the WordNet repository with:
@@ -47,7 +47,7 @@ Example steps to install docker and the images:
 1. Install ssh and git with:
    *  `$ apt update`
    *  `$ apt install git ssh`
-   
+1. 
 
 #### File arrangements
 * All files should be organized in following structure:
