@@ -31,23 +31,31 @@ This is a Keras implementation of different event embedding models.
 
 Example steps to install docker and the images:
 1. Follow the docker-ce installation instructions on the docker web site, e.g., for [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), if you don't already have docker installed.
+1. Install `nvidia-docker`
 1. Once you have installed docker, assuming you also set up the docker group for your own username, download the docker image with:
    *  `$ docker pull tonyhong/event-embedding:paper`
 1. Enter the docker image with:
-   *  `$ docker run -ti tonyhong/event-embedding:paper`
+   *  `$ docker run --runtime=nvidia -ti tonyhong/event-embedding:paper`
    
    you should now be at a root prompt inside a running docker container. See the docker documentation for how to re-enter a running git container after you have exited.
 1. Install `h5py` and `nltk` with the following command:
    *  `$ pip install h5py nltk`
 1. Install the WordNet repository with:
    *  `$ ipython`
-   *  `$ nltk.download()`
+   *  `In [1]: import nltk`
+   *  `In [2]: nltk.download()`
+   *  `Downloader> d wordnet`
    
-   and go through the menus to download the wordnet data. 
+   and go through the menus to download the wordnet data. Exit `ipython`.
 1. Install ssh and git with:
    *  `$ apt update`
    *  `$ apt install git ssh`
-1. 
+1. Clone this repository with git.
+1. Download model files as below to your computer outside docker.
+1. Inside the docker, create a directory called `model` and inside that, `test`, at the same level as the `event-embedding` diretory under `event-embedding-multitask`
+1. From outside docker, copy the model file into the container. Assuming the container is named `flying-fish`:
+   *  `$ docker cp MODEL_FILE flying-fish:event-embedding-multitask/model/test`
+
 
 #### File arrangements
 * All files should be organized in following structure:
