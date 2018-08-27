@@ -53,7 +53,7 @@ Example steps to install docker and the images:
 1. Clone this repository with git.
 1. Download model files as below to your computer outside docker.
 1. Inside the docker, create a directory called `model` and inside that, `test`, at the same level as the `event-embedding` diretory under `event-embedding-multitask`
-1. From outside docker, copy the model file into the container. Assuming the container is named `flying-fish` and you choose the MTRFv4Res model:
+1. From outside docker, copy the model file into the container. Assuming the container is named `flying-fish` and you choose the `MTRFv4Res` model:
    *  `$ docker cp MTRFv4Res_oct_e75_description flying-fish:/root/event-embedding-multitask/model/test`
    *  `$ docker cp MTRFv4Res_oct_e75.h5 flying-fish:/root/event-embedding-multitask/model/test`
 1. Now you can query the model and run other scripts. For example:
