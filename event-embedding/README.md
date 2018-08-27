@@ -32,18 +32,22 @@ This is a Keras implementation of different event embedding models.
 Example steps to install docker and the images:
 1. Follow the docker-ce installation instructions on the docker web site, e.g., for [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), if you don't already have docker installed.
 1. Once you have installed docker, assuming you also set up the docker group for your own username, download the docker image with:
-   *  $ docker pull tonyhong/event-embedding:paper
+   *  `$ docker pull tonyhong/event-embedding:paper`
 1. Enter the docker image with:
-   *  $ docker run -ti tonyhong/event-embedding:paper
+   *  `$ docker run -ti tonyhong/event-embedding:paper`
+   
    you should now be at a root prompt inside a running docker container.
 1. Install `h5py` and `nltk` with the following command:
-   *  $ pip install h5py nltk
+   *  `$ pip install h5py nltk`
 1. Install the WordNet repository with:
-   *  $ ipython
-   *  $ nltk.download()
+   *  `$ ipython`
+   *  `$ nltk.download()`
+   
    and go through the menus to download the wordnet data. 
-1. Install git with
-
+1. Install ssh and git with:
+   *  `$ apt update`
+   *  `$ apt install git ssh`
+   
 
 #### File arrangements
 * All files should be organized in following structure:
