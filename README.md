@@ -2,7 +2,7 @@
 
 This is the repository for the \*SEM 2018 papar ["Learning Distributed Event Representations with a Multi-Task Approach"](http://aclweb.org/anthology/S18-2002) by Xudong Hong, Asad Sayeed and Vera Demberg. 
 
-The published is [star-sem-paper.pdf](https://github.com/tony-hong/event-embedding-multitask/blob/master/star-sem-paper.pdf) and the supplemental document is [star-sem-supplemental.pdf](https://github.com/tony-hong/event-embedding-multitask/blob/master/star-sem-supplemental.pdf). The source code and more information are in [event-embedding](https://github.com/tony-hong/event-embedding-multitask/tree/master/event-embedding). 
+The published paper is [star-sem-paper.pdf](https://github.com/tony-hong/event-embedding-multitask/blob/master/star-sem-paper.pdf) and the supplemental document is [star-sem-supplemental.pdf](https://github.com/tony-hong/event-embedding-multitask/blob/master/star-sem-supplemental.pdf). The source code and more information are in [event-embedding](https://github.com/tony-hong/event-embedding-multitask/tree/master/event-embedding). 
 
 If you use our code in your work, please cite our paper:  
   > @inproceedings{hong2018learning,  
